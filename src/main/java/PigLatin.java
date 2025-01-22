@@ -90,7 +90,7 @@ if(word.length()>0){
       return word.substring(2,word.length()) + "quay";
     for(int i = 0; i<word.length(); i++){
       if(findFirstVowel(word) == i){
-        return(word.substring(i,word.length())+word.substring(0,i)+"ay");
+        return(word.substring(i,word.length())+word.substring(0,i)+"ay");     
       }
     }   
   }
