@@ -87,7 +87,7 @@ if(word.length()>0){
     
     if(word.substring(0,2).equals("qu"))
  
-      return word.substring(2,word.length()) + "quy";
+      return word.substring(2,word.length()) + "quay";
     for(int i = 0; i<word.length(); i++){
       if(findFirstVowel(word) == i){
         return(word.substring(i,word.length())+word.substring(0,i)+"ay");     
